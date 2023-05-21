@@ -1,0 +1,47 @@
+{
+  "file": {
+      "regtest": {
+        "name": "lnd_describegraph_regtest.json",
+        "last_update": "20200120T200001"
+      },
+      "mainnet": {
+        "name": "lnd_describegraph_mainnet.json",
+        "last_update": "20200120T200001"
+      },
+      "testnet": {
+        "name": "lnd_describegraph_testnet.json",
+        "last_update": "20200120T200001"
+      }
+  },
+  "connector": {
+    "lnd": {
+      "macaroon_dir": "/data/chain/bitcoin/regtest/admin.macaroon",
+      "cert_dir": "/tls.cert",
+      "alias": "alice",
+      "host": "localhost",
+      "port": 10001
+    },
+    "eclair": {
+      "host": "localhost",
+      "port": 8283,
+      "user": "",
+      "passwd": "eclairpw"
+    },
+    "c-lightning": {
+      "alias": "erin",
+      "macaroon_dir": "/lightningd/regtest/lightning-rpc"
+    }
+  },
+  "loop": 1,
+  "num_k": 3,
+  "sleep": 1,
+  "update": true,
+  "num_routes": 2,
+  "max_amount": 2000,
+  "step_diff_ns": 1000000000,
+  "min_diff_ns": 1000000000,
+  "max_diff_ns": 100000000000,
+  "test_file": "test.json",
+  "results_file": "results.json",
+  "polar_path": "/home/pis1901/.polar/networks/2/volumes/"
+}

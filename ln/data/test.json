@@ -1,0 +1,61 @@
+{
+    "lnd": {
+        "flag": true,
+        "node": {
+            "alias": "alice",
+            "host": "localhost",
+            "port": 10001
+        },
+        "routes": [
+            {
+                "origin": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                "destiny": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+                "amount": 273
+            },
+            {
+                "origin": "0237b2688e2f2f06db2a1519830f5ff190650aa65483dcb254e510cfa920697875",
+                "destiny": "0356bdbd21ad6bfcd3c44dfafc2a67478921d16c861f5ce466262c048c9a2344fa",
+                "amount": 1915
+            }
+        ]
+    },
+    "eclair": {
+        "flag": true,
+        "node": {
+            "host": "localhost",
+            "port": 8283,
+            "user": "",
+            "passwd": "eclairpw"
+        },
+        "routes": [
+            {
+                "origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+                "destiny": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+                "amount": 1957
+            },
+            {
+                "origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+                "destiny": "03d31a7945cca23f4d73f812c6ee057226b40f3daba025ae4660820d7ddfa41621",
+                "amount": 938
+            }
+        ]
+    },
+    "c-lightning": {
+        "flag": true,
+        "node": {
+            "alias": "erin"
+        },
+        "routes": [
+            {
+                "origin": "03d778def294bb13b6841816c70341953f6f0ab441d3923022e84b7c133bc20037",
+                "destiny": "02b923d011bb8faff670b114e1c65fbd6e96127fb5d0ee46b556a76f97bbff3002",
+                "amount": 412
+            },
+            {
+                "origin": "03c6669c04361007336fcebe804da4ece438ce9eb4a1d603983749330838c29677",
+                "destiny": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+                "amount": 434
+            }
+        ]
+    }
+}

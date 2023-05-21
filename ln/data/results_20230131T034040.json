@@ -1,0 +1,931 @@
+{
+    "0": "01/31/2023, 03:40:36---",
+    "1": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "payment_amount": 1919,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 394,
+                "total_fees": 0.0,
+                "total_amt": 1919.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1919000.0,
+                "success_prob": 0.6,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": "250000",
+                        "amt_2_fwrd": 1919.0,
+                        "fee": 0.0,
+                        "expiry": 394,
+                        "amt_2_fwrd_msat": 1919000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "d49fa8429b957f7b967733e423b2ef9a4c0618fd9ecf846d4efc3634b0de88c9",
+        "creation_time_ns": 1675154436855267829,
+        "error": null
+    },
+    "2": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1919,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 394,
+                "total_fees": 0.0,
+                "total_amt": 1919.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1919000.0,
+                "success_prob": 0.40154330021827417,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": "250000",
+                        "amt_2_fwrd": 1919.0,
+                        "fee": 0.0,
+                        "expiry": 394,
+                        "amt_2_fwrd_msat": 1919000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "4c6f5948c34a9f4693f51621c7439349ba7beb6696b9e5bbe08b76998d6d79c1",
+        "creation_time_ns": 1675154436859506059,
+        "error": null
+    },
+    "3": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "payment_amount": 1919,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 40,
+                "total_fees": 0.0,
+                "total_amt": 1919.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1919000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": 248081.0,
+                        "amt_2_fwrd": 1919.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1919000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "cfc22015e1680698cb5b6ef4f01dfc1ef7543c7a7bf513566b55f20c1db726f1",
+        "creation_time_ns": 1675154436862710677,
+        "error": null
+    },
+    "4": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1919,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 6,
+                "total_fees": 0.0,
+                "total_amt": 1919.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1919000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": 246162.0,
+                        "amt_2_fwrd": 1919.0,
+                        "fee": 0.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 1919000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "93cf4ec781ea49748af854b2e96c7369611b74332fb27ec2efad509f70d69762",
+        "creation_time_ns": 1675154436865535233,
+        "error": null
+    },
+    "5": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+        "pubkey_destiny": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "payment_amount": 51,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 394,
+                "total_fees": 0.0,
+                "total_amt": 51.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 51000.0,
+                "success_prob": 0.6,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": "250000",
+                        "amt_2_fwrd": 51.0,
+                        "fee": 0.0,
+                        "expiry": 394,
+                        "amt_2_fwrd_msat": 51000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "bcc877451bfa5958a8cd8a9749e2eea37dce4a2fe2b45b5ab957ed870bbe1fa0",
+        "creation_time_ns": 1675154436870559631,
+        "error": null
+    },
+    "6": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "pubkey_destiny": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+        "payment_amount": 51,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 394,
+                "total_fees": 0.0,
+                "total_amt": 51.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 51000.0,
+                "success_prob": 0.6,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": "250000",
+                        "amt_2_fwrd": 51.0,
+                        "fee": 0.0,
+                        "expiry": 394,
+                        "amt_2_fwrd_msat": 51000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "452fdbcb7ebd3e5956b3f6ea6808f1f2a40ea3d5746e1c4a5d10e3a9e8464153",
+        "creation_time_ns": 1675154436875854873,
+        "error": null
+    },
+    "7": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+        "pubkey_destiny": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "payment_amount": 51,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 40,
+                "total_fees": 0.0,
+                "total_amt": 51.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 51000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": 249949.0,
+                        "amt_2_fwrd": 51.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 51000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "1f700da8613697543fb95a2ce096ab97cea54ed0b5cacc416a9d932479e2fa04",
+        "creation_time_ns": 1675154436878541081,
+        "error": null
+    },
+    "8": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "pubkey_destiny": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+        "payment_amount": 51,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 40,
+                "total_fees": 0.0,
+                "total_amt": 51.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 51000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": 249898.0,
+                        "amt_2_fwrd": 51.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 51000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "fc0ae7362c576ecd6a0f887ec4cb8b8714d74ea474dd679d9884d2d6741dd561",
+        "creation_time_ns": 1675154436880961252,
+        "error": null
+    },
+    "9": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "pubkey_destiny": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+        "payment_amount": 147,
+        "routes": null,
+        "payment_hash": null,
+        "creation_time_ns": 1675154436943623771,
+        "error": "route not found"
+    },
+    "10": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "pubkey_destiny": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+        "payment_amount": 147,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 190,
+                "total_fees": 1.0,
+                "total_amt": 148.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 148000.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "184717953531905",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 148.0,
+                        "fee": 0.0,
+                        "expiry": 144,
+                        "amt_2_fwrd_msat": 148000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "217703302365185",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 147.0,
+                        "fee": 1.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 147000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "03c6669c04361007336fcebe804da4ece438ce9eb4a1d603983749330838c29677",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "270479860498433",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 147.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 147000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "6dcc0a61fa84123cfc5c1b825955edefd8d00fec70c995345141038621ba3f79",
+        "creation_time_ns": 1675154436946397302,
+        "error": null
+    },
+    "11": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+        "pubkey_destiny": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "payment_amount": 147,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 86,
+                "total_fees": 1.0,
+                "total_amt": 148.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 148000.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "270479860498433",
+                        "channel_capacity": 249853.0,
+                        "amt_2_fwrd": 148.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 148000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "03c6669c04361007336fcebe804da4ece438ce9eb4a1d603983749330838c29677",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "217703302365185",
+                        "channel_capacity": 249852.0,
+                        "amt_2_fwrd": 147.0,
+                        "fee": 1.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 147000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "184717953531905",
+                        "channel_capacity": 249852.0,
+                        "amt_2_fwrd": 147.0,
+                        "fee": 0.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 147000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "84d8b37c581b318e73619b601accfc00c8786cfe768d4e18e75ed5d8a6fd57e5",
+        "creation_time_ns": 1675154436948963013,
+        "error": null
+    },
+    "12": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "pubkey_destiny": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "payment_amount": 298,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 80,
+                "total_fees": 1.0,
+                "total_amt": 299.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 299000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 382630046531585,
+                        "channel_capacity": 247500.0,
+                        "amt_2_fwrd": 299.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 299000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+                        "tlv_pay_load": false
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 382630046531585,
+                        "channel_capacity": 247500.0,
+                        "amt_2_fwrd": 299.0,
+                        "fee": 1.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 299000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": false
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "a249b7aff2b399030b581d05929108e0bcc9dc41ce401b9aec32c00d7855dcc4",
+        "creation_time_ns": 1675154437020597884,
+        "error": null
+    },
+    "13": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "pubkey_destiny": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "payment_amount": 298,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 144,
+                "total_fees": 0.0,
+                "total_amt": 298.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 298000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "184717953531905",
+                        "channel_capacity": 249853.0,
+                        "amt_2_fwrd": 298.0,
+                        "fee": 0.0,
+                        "expiry": 144,
+                        "amt_2_fwrd_msat": 298000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "c53254845986c7061f2c70778a6ac8efc6b3998c3c9778522cc6a02daccb4e2e",
+        "creation_time_ns": 1675154437023138619,
+        "error": null
+    },
+    "14": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+        "pubkey_destiny": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+        "payment_amount": 298,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 6,
+                "total_fees": 0.0,
+                "total_amt": 298.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 298000.0,
+                "success_prob": 0.5,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "184717953531905",
+                        "channel_capacity": 249554.0,
+                        "amt_2_fwrd": 298.0,
+                        "fee": 0.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 298000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "029da9140fc68d621d73cbfb78b0a0490ebfa49eadf1609bd41525aee7dab35db6",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "c6f94d5e19ea38bc23dc4ca96781db9ed8d2b88075ed9601c386d661b126694a",
+        "creation_time_ns": 1675154437024861325,
+        "error": null
+    },
+    "15": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1807,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 276,
+                "total_fees": 3.002999999999929,
+                "total_amt": 1810.003,
+                "total_fees_msat": 3002.999999999929,
+                "total_amt_msat": 1810003.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 382630046531585,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1810.003,
+                        "fee": 1000.0,
+                        "expiry": 129,
+                        "amt_2_fwrd_msat": 1810003.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "03d778def294bb13b6841816c70341953f6f0ab441d3923022e84b7c133bc20037",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 369435906998273,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1809.002,
+                        "fee": 1000.0,
+                        "expiry": 89,
+                        "amt_2_fwrd_msat": 1809002.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "0356bdbd21ad6bfcd3c44dfafc2a67478921d16c861f5ce466262c048c9a2344fa",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 329853488398337,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1808.001,
+                        "fee": 1000.0,
+                        "expiry": 49,
+                        "amt_2_fwrd_msat": 1808001.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 303465209331713,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 0.0,
+                        "expiry": 9,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "5f87ee4bc5fffa74a19d539a727eed55d6ef969cf1a9f062235987c16a0a0453",
+        "creation_time_ns": 1675154437035135481,
+        "error": null
+    },
+    "16": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "payment_amount": 1807,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 276,
+                "total_fees": 3.002999999999929,
+                "total_amt": 1810.003,
+                "total_fees_msat": 3002.999999999929,
+                "total_amt_msat": 1810003.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 303465209331713,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1810.003,
+                        "fee": 1000.0,
+                        "expiry": 129,
+                        "amt_2_fwrd_msat": 1810003.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "03929cc567acd6997ecea0a68579784f539d32e9ef438a3b3d0a7ad5792686f9f0",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 329853488398337,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1809.002,
+                        "fee": 1000.0,
+                        "expiry": 89,
+                        "amt_2_fwrd_msat": 1809002.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "0356bdbd21ad6bfcd3c44dfafc2a67478921d16c861f5ce466262c048c9a2344fa",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 369435906998273,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1808.001,
+                        "fee": 1000.0,
+                        "expiry": 49,
+                        "amt_2_fwrd_msat": 1808001.0,
+                        "fee_msat": 1000000.0,
+                        "pub_key": "03d778def294bb13b6841816c70341953f6f0ab441d3923022e84b7c133bc20037",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 382630046531585,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 0.0,
+                        "expiry": 9,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "45b4fdbeebbb9631dccf14f6e95b81c8a352640233c7aa3e18eafb9a0f20d48f",
+        "creation_time_ns": 1675154437043678053,
+        "error": null
+    },
+    "17": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1807,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 80,
+                "total_fees": 1.0,
+                "total_amt": 1808.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 1808000.0,
+                "success_prob": 0.3333333333333333,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": 249898.0,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 1.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "283674000031745",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "b3edc9ba591322ec63c5814dde51e3b5fe58a987888e0d539241fab526e9be80",
+        "creation_time_ns": 1675154437046146202,
+        "error": null
+    },
+    "18": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+        "payment_amount": 1807,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 80,
+                "total_fees": 1.0,
+                "total_amt": 1808.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 1808000.0,
+                "success_prob": 0.3333333333333333,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "283674000031745",
+                        "channel_capacity": 248193.0,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 1.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "034dfdfc05de327315a0378f31146c002ad0c2bb2d5c0d36e912612cf9a28b44b6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "316659348865025",
+                        "channel_capacity": 248090.0,
+                        "amt_2_fwrd": 1807.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1807000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "027420860f8f08478f9cc7ea382c93ed3e1349fffea307e6411eaa3f6cdb78e308",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "7983ca5b1f389813572ea4728bdab7046678ce05f212bd5bc3884572065956cc",
+        "creation_time_ns": 1675154437048564798,
+        "error": null
+    },
+    "19": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+        "payment_amount": 1803,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 9,
+                "total_fees": 0.0,
+                "total_amt": 1803.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1803000.0,
+                "success_prob": 1.0,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 237494511665153,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 0.0,
+                        "expiry": 9,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "ea192cc9a21006b1cb480fafb4cbcb612f766751152e8083b914d41263a74806",
+        "creation_time_ns": 1675154437053476715,
+        "error": null
+    },
+    "20": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1803,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 9,
+                "total_fees": 0.0,
+                "total_amt": 1803.0,
+                "total_fees_msat": 0.0,
+                "total_amt_msat": 1803000.0,
+                "success_prob": 1.0,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": 237494511665153,
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 0.0,
+                        "expiry": 9,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "d9bc46b763e7e3719b2b48de0c7ee1d46cac7a75d4db2ca96143e9e2c9c4ecff",
+        "creation_time_ns": 1675154437058622512,
+        "error": null
+    },
+    "21": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "pubkey_destiny": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+        "payment_amount": 1803,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 52,
+                "total_fees": 1.0,
+                "total_amt": 1804.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 1804000.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": 246162.0,
+                        "amt_2_fwrd": 1804.0,
+                        "fee": 0.0,
+                        "expiry": 40,
+                        "amt_2_fwrd_msat": 1804000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "164926744231937",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 1.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "0237b2688e2f2f06db2a1519830f5ff190650aa65483dcb254e510cfa920697875",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "171523813998593",
+                        "channel_capacity": 250000,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 0.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "d09ff990365f5e0c183165fc0a03917e626a87266f3e9d521ea04735a3cb7f15",
+        "creation_time_ns": 1675154437061676506,
+        "error": null
+    },
+    "22": {
+        "py/object": "ln.route_payment.Payment",
+        "pubkey_origin": "03195462775bf7463d53459788e7156a10555d5647d051129a4fb01e3fe2dbe8f3",
+        "pubkey_destiny": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+        "payment_amount": 1803,
+        "routes": [
+            {
+                "py/object": "ln.route_payment.Route",
+                "total_time_lock": 156,
+                "total_fees": 1.0,
+                "total_amt": 1804.0,
+                "total_fees_msat": 1000.0,
+                "total_amt_msat": 1804000.0,
+                "success_prob": 0.25,
+                "hops": [
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "171523813998593",
+                        "channel_capacity": 248197.0,
+                        "amt_2_fwrd": 1804.0,
+                        "fee": 0.0,
+                        "expiry": 144,
+                        "amt_2_fwrd_msat": 1804000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0237b2688e2f2f06db2a1519830f5ff190650aa65483dcb254e510cfa920697875",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "164926744231937",
+                        "channel_capacity": 248196.0,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 1.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 1000.0,
+                        "pub_key": "02651c0f03a0a8f405173fed6967da802857c204ac219a20e0e6fabb78c212d8a6",
+                        "tlv_pay_load": true
+                    },
+                    {
+                        "py/object": "ln.route_payment.Hop",
+                        "channel_id": "230897441898497",
+                        "channel_capacity": 244358.0,
+                        "amt_2_fwrd": 1803.0,
+                        "fee": 0.0,
+                        "expiry": 6,
+                        "amt_2_fwrd_msat": 1803000.0,
+                        "fee_msat": 0.0,
+                        "pub_key": "0276d03275ce09036c46365073826e925da7cfc6815816a3b0ca248c3f130c61bc",
+                        "tlv_pay_load": true
+                    }
+                ]
+            }
+        ],
+        "payment_hash": "49c83f0354554171c56ef60037fee0c25f26985a6c7426f51fbc0d472ea3e89b",
+        "creation_time_ns": 1675154437065068480,
+        "error": null
+    }
+}
